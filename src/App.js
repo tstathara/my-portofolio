@@ -2,6 +2,7 @@ import './App.css';
 import Navigation from './screens/navigationBar/NavigationBar'
 import ParticleAnimation from 'react-particle-animation'
 import Header from './screens/header/Header';
+import AboutMe from './screens/aboutme/AboutMe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       particleRadius={0.8}
       color={{r: 158, g: 217, b: 249, a: 255 }}
       />
+      <AboutMe />
     </div>
   );
 }

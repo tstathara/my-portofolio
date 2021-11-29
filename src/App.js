@@ -3,6 +3,7 @@ import Navigation from './screens/navigationBar/NavigationBar'
 import ParticleAnimation from 'react-particle-animation'
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutme/AboutMe';
+import Technologies from './screens/technologies/Technologies';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       color={{r: 158, g: 217, b: 249, a: 255 }}
       />
       <AboutMe />
+      <Technologies />
     </div>
   );
 }
